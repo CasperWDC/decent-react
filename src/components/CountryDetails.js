@@ -42,7 +42,7 @@ const CountryDetails = () => {
 
     return (
         <div className="container mt-4">
-            <a href="/decent-react" className="btn btn-primary">Back</a>
+            <a href="/" className="btn btn-primary">Back</a>
 
             <h1>Country Details: {country.name.common}</h1>
 

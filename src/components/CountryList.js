@@ -55,7 +55,7 @@ const CountryList = () => {
                             <img src={country.flags.png} className="card-img-top" alt={`Flag of ${country.name.common}`} />
                             <div className="card-body">
                                 <h5 className="card-title">{country.name.common}</h5>
-                                <Link to={`/decent-react/${country.name.common}`} className="btn btn-primary">Details</Link>
+                                <Link to={`/${country.name.common}`} className="btn btn-primary">Details</Link>
                             </div>
                         </div>
                     </div>
